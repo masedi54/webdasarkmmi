@@ -1,0 +1,158 @@
+body{
+    background: #ebebeb;
+    margin: 0px;
+}
+
+.main-container{
+    width: 90%;
+    margin: auto;
+}
+
+#main-site-logo-x{
+    background: white;
+    padding: 16px 10px 16px 10px;
+}
+
+#main-site-logo-x span{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main-container #main-site-logo-x span{
+    font-size: 50px;
+}
+
+.navigation-menu{
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: lightseagreen;
+}
+
+.navigation-menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(4, 16, 37);
+    font-weight: bold;
+    padding: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hhh{
+    float: right;
+    padding: 10px 5px;
+    font-weight: normal;
+}
+
+.header-image{
+    height: 550px;
+    background: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+    background-image: url("../images/batik1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.info-card{
+    display: flex;
+    margin-top: 10px;
+}
+
+.info-card div{
+    flex: 1;
+    height: 240px;
+    background: lavenderblush;
+    padding: 5px;
+}
+
+.main-content{
+    display: flex;
+    margin-top: 20px;
+    background: #ffffff;
+}
+
+.main-content .content-section{
+    flex: 2;
+    padding: 10px;
+}
+
+.main-content .navigation-section{
+    flex: 1;
+    padding: 10px;
+}
+
+.navigation-section ul{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.navigation-section li{
+    list-style: none;
+    background: #ebebeb;
+    color: rgb(1, 22, 49);
+    padding: 16px 8px;
+    font-weight: bold;
+}
+
+.navigation-section a{
+    text-decoration: none;
+}
+
+.navigation-section li:hover{
+    background: #dddddd;
+}
+
+.main-gallery{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 10;
+}
+
+.main-gallery div{
+    flex: 1;
+    height: 200px;
+}
+
+.main-gallery .Image1{
+    background: cadetblue;
+    background-image: url("../images/batik4.jpg");
+    background-size: cover;
+}
+
+.main-gallery .Image2{
+    background: coral;
+    background-image: url("../images/batik3.jpg");
+    background-size: cover;
+}
+
+.main-gallery .Image3{
+    background: cornflowerblue;
+    background-image: url("../images/batik2.jpg");
+    background-size: cover;
+}
+
+.main-gallery .Image4{
+    background: darkkhaki;
+    background-image: url("../images/batik.jpg");
+    background-size: cover;
+}
+
+.main-footer{
+    display: flex;
+    margin-top: 20px;
+    background: rgb(1, 22, 49);
+    padding: 16px 10px;    
+}
+
+.main-footer div{
+    flex: 1;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or
+    smaller */
+    }
+}
